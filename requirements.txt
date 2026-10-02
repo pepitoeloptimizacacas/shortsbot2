@@ -1,0 +1,14 @@
+# Instalar dentro de tu venv .venv-voz (donde ya funciona chatterbox):
+#   .\.venv-voz\Scripts\python.exe -m pip install -r requirements.txt
+
+faster-whisper
+soundfile
+numpy
+torch
+praw
+python-dotenv
+requests
+pillow
+playwright
+# chatterbox-tts ya lo tienes instalado en .venv-voz; se deja fuera para no reinstalarlo
+# Ollama corre aparte como servicio local (no es un paquete pip): ollama.com
